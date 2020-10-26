@@ -1,0 +1,112 @@
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.buttonContato {
+  border-radius: 25px;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: 8px 24px;
+  transition-duration: 0.4s;
+}
+
+.buttonContato:hover {
+  background-color: black;
+  color: white;
+}
+
+.buttonProjetos {
+  background-color: black;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 1.25rem;
+  padding: 8px 24px;
+}
+
+.buttonProjetos:hover {
+  color: #483d8b;
+}
+
+.buttonHome {
+  background-color: black;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 2rem;
+  margin: 3px;
+  letter-spacing: 5px;
+}
+
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 12vh;
+    background-image: url("../images/background.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in;
+  }
+  .buttonContato {
+    margin-top: 100px;
+    cursor: pointer;
+  }
+  .buttonProjetos {
+    padding: 50px;
+  }
+}
+
+.nav-active {
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+  height: 92vh;
+  top: 12vh;
+  background-image: url("../images/background.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  transition: all 0.5s ease-in;
+  transform: translateX(0%);
+}

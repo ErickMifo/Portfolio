@@ -1,0 +1,57 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+  color: white;
+}
+
+.typedTitle {
+  padding: 30px;
+  font-size: 2rem;
+  animation: mymovetitle 6s;
+}
+
+.Sub {
+  margin: 3px;
+  animation: mymove 10s;
+  font-size: 1.25rem;
+  padding-bottom: 100px;
+}
+
+@keyframes mymovetitle {
+  from {
+    padding-bottom: 100px;
+  }
+  to {
+    padding-bottom: 30px;
+  }
+}
+@keyframes mymove {
+  from {
+    padding-bottom: 500px;
+    opacity: 0;
+  }
+  to {
+    padding-bottom: 100px;
+    opacity: 1;
+  }
+}
+
+body {
+  width: 100%;
+
+  height: 100vh;
+
+  background-image: url("../images/background.jpg");
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+
+  background-color: #ffffff;
+}
