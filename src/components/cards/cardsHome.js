@@ -4,11 +4,10 @@ import CardItem from './cardItem';
 import background from '../images/github.png'
 
 
-function Cards() {
+function CardsHome() {
   return (
     <div className='cards'>
       <div className='cards__container'>
-   
           <ul className='cards__items'>
             <CardItem
               src={background}
@@ -23,4 +22,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default CardsHome;

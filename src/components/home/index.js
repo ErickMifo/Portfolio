@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import Typed from "react-typed";
 import NavBar from '../navbar'
-import Cards from "../cards/cards";
+import CardsHome from "../cards/cardsHome";
 
 const subTexto = 
 "Título Tetxo Texto Texto Título Tetxo Texto Texto Título Tetxo Texto Texto Título Tetxo Texto Texto"
@@ -10,7 +10,7 @@ const subTexto =
 function Home() {
   return (
 
-    <div>
+<>
     <NavBar />
     <div className="home">
        
@@ -25,10 +25,9 @@ function Home() {
 
         <p className="Sub">{subTexto}</p>
 
-        <Cards />
+        <CardsHome />
  </div>
-
-</div>
+</>
 
   );
 }
