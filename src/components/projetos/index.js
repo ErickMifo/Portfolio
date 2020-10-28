@@ -12,7 +12,8 @@ function Projetos() {
         <div>
             <NavBar />
             <motion.div
-            exit='out'
+            exit={{ opacity: 0 }}
+            transition={{duration: 0.6}}
             className="projects">
 
          <div  className="mainText">

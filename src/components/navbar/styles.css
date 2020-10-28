@@ -16,12 +16,11 @@
 }
 
 .buttonContato:hover {
-  background-color: white;
+  background-color: #f0ffff;
   color: #283747;
 }
 
 .buttonProjetos {
-  background-color: black;
   color: black;
   background: none;
   border: none;

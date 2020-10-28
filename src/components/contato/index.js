@@ -7,12 +7,13 @@ import './styles.css'
 function Contato() {
     return(
         <motion.div
-        exit='out'>
+        exit={{ opacity: 0 }}
+        transition={{duration: 0.6}}>
             <NavBar />
-            
-            <div className="contato">
 
-            <h1> Como posso ajudar? </h1>
+       
+            <div className="contato">
+            <h1 className="titleContato"> Como posso ajudar? </h1>
             <Formulario />
 
             </div>
