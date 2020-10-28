@@ -15,14 +15,15 @@ setClick(!click)
     return(
         <div className="navBar">
             <Link to="/">
-            <button className="buttonHome"> logo? </button>
+            <button className="buttonHome"> Erick Fukuda </button>
             </Link>
             <div className={click ? "nav-active" : "nav-links"}>
-            <Link to='/contato'>
-            <button className="buttonContato"> Contato </button>
-            </Link>
+            <button className="buttonProjetos"> Sobre </button>
             <Link to='/projetos'>
             <button className="buttonProjetos"> Projetos </button>
+            </Link>
+            <Link to='/contato'>
+            <button className="buttonContato"> Contato </button>
             </Link>
             </div>
             <div className="menu-icon" onClick={handleClick}>

@@ -5,7 +5,7 @@ import NavBar from '../navbar'
 import CardsHome from "../cards/cardsHome";
 
 const subTexto = 
-"Título Tetxo Texto Texto Título Tetxo Texto Texto Título Tetxo Texto Texto Título Tetxo Texto Texto"
+"Sou estudante de Administração pela UFSC e ~adjetivo~ por programação Front-end"
 
 function Home() {
   return (

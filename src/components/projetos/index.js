@@ -9,9 +9,10 @@ function Projetos() {
             <NavBar />
             <div className="projects">
 
-         
-            <h1>  textotextotextotextotextotextotextotexto </h1>
-
+         <div  className="mainText">
+            <h1 className="titleproject">  Aqui estão alguns dos meus projetos. </h1>
+            <p className="interests"> São do meu interesse: JavaScript, CSS, HTML, Reactjs e Nodejs</p>
+        </div>
 
             <CardsProjects />
             </div>
