@@ -3,21 +3,27 @@ import "./styles.css";
 import Typed from "react-typed";
 import NavBar from '../navbar'
 import CardsHome from "../cards/cardsHome";
+import { motion } from "framer-motion";
 
 const subTexto = 
-"Sou estudante de Administração pela UFSC e ~adjetivo~ por programação Front-end"
+"Sou estudante de Administração pela UFSC e {adjetivo} por Front-end."
+
+
 
 function Home() {
   return (
 
 <>
     <NavBar />
-    <div className="home">
+    <motion.div 
+    exit={{ opacity: 0 }}
+    transition={{duration: 0.6}}
+    className="home">
        
     <Typed
         className="typedTitle"
         strings={[
-          "Olá, meu nome é Erick"
+          "Olá, meu nome é Erick."
         ]}
         typeSpeed={50}
         cursorChar=""
@@ -26,7 +32,7 @@ function Home() {
         <p className="Sub">{subTexto}</p>
 
         <CardsHome />
- </div>
+ </motion.div>
 </>
 
   );

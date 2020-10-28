@@ -1,11 +1,13 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 import NavBar from '../navbar'
 
 function Contato() {
     return(
-        <div>
+        <motion.div
+        exit='out'>
             <NavBar />
-        </div>
+        </motion.div>
     )
 }
 

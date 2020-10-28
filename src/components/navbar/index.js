@@ -15,7 +15,7 @@ setClick(!click)
     return(
         <div className="navBar">
             <Link to="/">
-            <button className="buttonHome"> Erick Fukuda </button>
+            <button className="buttonHome"> Erick Mifo </button>
             </Link>
             <div className={click ? "nav-active" : "nav-links"}>
             <button className="buttonProjetos"> Sobre </button>

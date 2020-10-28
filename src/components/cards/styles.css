@@ -15,7 +15,7 @@
   flex: 1;
   margin: 0 3rem;
   border-radius: 10px;
-  animation: cardmove 20s;
+  animation: cardmove 15s;
 }
 
 @keyframes cardmove {
