@@ -62,10 +62,6 @@ button:focus {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-
   .menu-icon {
     display: block;
     font-size: 40px;
