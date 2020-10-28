@@ -19,6 +19,13 @@
   padding-bottom: 100px;
 }
 
+.iptFront {
+  display: flex;
+  flex-direction: row;
+}
+.ipt {
+  margin-right: 10px;
+}
 @keyframes mymovetitle {
   from {
     padding-bottom: 100px;
@@ -35,5 +42,12 @@
   to {
     padding-bottom: 100px;
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .iptFront {
+    display: flex;
+    flex-direction: column;
   }
 }

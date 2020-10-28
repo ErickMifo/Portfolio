@@ -9,6 +9,9 @@
     width: 100%;
     overflow-x: hidden;
   }
+  body {
+    margin: 4px;
+  }
 }
 
 body {
@@ -19,7 +22,7 @@ body {
 
   height: 100vh;
 
-  background-image: url("../images/background.jpg");
+  background-image: url
 
   background-position: center center;
 

@@ -1,22 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import Typed from "react-typed";
 import NavBar from '../navbar'
 import CardsHome from "../cards/cardsHome";
 import { motion } from "framer-motion";
-
-const subTexto = 
-"Sou estudante de Administração pela UFSC e {adjetivo} por Front-end."
-
+import Select from '@material-ui/core/Select';
+import MenuItem from '@material-ui/core/MenuItem';
 
 
 function Home() {
+
+  const [adj, setAdj] = useState('');
+
+  const handleChange = (event) => {
+    setAdj(event.target.value);
+  };
+
+
   return (
 
 <>
     <NavBar />
     <motion.div 
-    exit={{ opacity: 0 }}
+    exit={{y: 300, opacity: 0 }}
     transition={{duration: 0.6}}
     className="home">
        
@@ -28,9 +34,23 @@ function Home() {
         typeSpeed={50}
         cursorChar=""
       />
-
-        <p className="Sub">{subTexto}</p>
-
+      <div  className="Sub">
+        <p>Sou estudante de Administração pela UFSC e</p> 
+<div className="iptFront">
+        <Select
+         className="ipt"
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          value={adj}
+          onChange={handleChange}
+        >
+          <MenuItem value={'Louco'}>Louco</MenuItem>
+          <MenuItem value={'Apaixonado'}>Apaixonado</MenuItem>
+          <MenuItem value={'Outro adjetivo absurdo-não realista'}>Outro adjetivo absurdo - não realista</MenuItem>
+        </Select>
+        <p>por Front-end</p>
+</div>
+      </div>
         <CardsHome />
  </motion.div>
 </>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './components/home';
+import Sobre from './components/sobre';
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contato from './components/contato';
@@ -21,6 +22,8 @@ function App() {
 
 
       <Route  path="/projetos" component={Projetos} />
+
+      <Route path="/sobre" component={Sobre} />
     </Switch>
     </AnimatePresence>
         )}

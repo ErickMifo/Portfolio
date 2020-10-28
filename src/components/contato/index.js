@@ -6,19 +6,20 @@ import './styles.css'
 
 function Contato() {
     return(
-        <motion.div
-        exit={{ opacity: 0 }}
-        transition={{duration: 0.6}}>
+        <div>
             <NavBar />
 
        
-            <div className="contato">
+            <motion.div
+        exit={{ x: -300, opacity: 0 }}
+        transition={{duration: 0.6}}
+        className="contato">
+
             <h1 className="titleContato"> Como posso ajudar? </h1>
             <Formulario />
 
-            </div>
-        </motion.div>
-    )
-}
-
+            </motion.div>
+        </div>
+    )}
+    
 export default Contato

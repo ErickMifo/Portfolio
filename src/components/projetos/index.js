@@ -4,15 +4,17 @@ import CardsProjects from '../cards/cardsProjects';
 import NavBar from '../navbar';
 import './styles.css'
 
-const initial = { opacity: 0 } 
-const animate = { opacity: 1 } 
+const initial = { x: -300, opacity: 0 } 
+const animate = { x: 0, opacity: 1 } 
+
+const projetos = "Aqui estão alguns dos meus projetos."
 const interesse = "São do meu interesse: JavaScript, CSS, HTML, Reactjs e Nodejs"
 function Projetos() {
     return (
         <div>
             <NavBar />
             <motion.div
-            exit={{ opacity: 0 }}
+            exit={{ x: 300, opacity: 0 }}
             transition={{duration: 0.6}}
             className="projects">
 
@@ -21,7 +23,7 @@ function Projetos() {
                   initial={initial}
                   animate={animate}
                   transition={{duration: 1}}
-            className="titleproject">  Aqui estão alguns dos meus projetos. </motion.h1>
+            className="titleproject">{projetos}</motion.h1>
             <motion.p
                   initial={initial}
                   animate={animate}
