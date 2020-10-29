@@ -46,7 +46,7 @@ function Home() {
         >
           <MenuItem value={'Interessado'}>Interessado</MenuItem>
           <MenuItem value={'Curioso'}>Curioso</MenuItem>
-          <MenuItem value={'Algum adjetivo absurdo/cringe'}>Algum adjetivo absurdo-não-cringe</MenuItem>
+          <MenuItem value={'Algum adjetivo absurdo/cringe'}>Algum adjetivo absurdo/cringe</MenuItem>
         </Select>
         <p>por Front-end</p>
 </div>
