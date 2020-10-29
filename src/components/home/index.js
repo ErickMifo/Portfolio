@@ -44,9 +44,9 @@ function Home() {
           value={adj}
           onChange={handleChange}
         >
-          <MenuItem value={'Louco'}>Louco</MenuItem>
-          <MenuItem value={'Apaixonado'}>Apaixonado</MenuItem>
-          <MenuItem value={'Outro adjetivo absurdo-não realista'}>Outro adjetivo absurdo - não realista</MenuItem>
+          <MenuItem value={'Interessado'}>Interessado</MenuItem>
+          <MenuItem value={'Curioso'}>Curioso</MenuItem>
+          <MenuItem value={'Algum adjetivo absurdo/cringe'}>Algum adjetivo absurdo-não-cringe</MenuItem>
         </Select>
         <p>por Front-end</p>
 </div>
