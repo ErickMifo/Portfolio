@@ -5,6 +5,7 @@ import Formulario from './form/form';
 import './styles.css'
 
 function Contato() {
+   
     return(
         <div>
             <NavBar />

@@ -8,7 +8,7 @@
 
 .mainText {
   padding-bottom: 100px;
-  animation: projectmove 5s;
+  animation: projectmove 3s;
 }
 
 @keyframes projectmove {

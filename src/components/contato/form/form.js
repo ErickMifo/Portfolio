@@ -36,6 +36,7 @@ const Formulario = () => {
       }, (error) => {
           console.log(error.text);
       });
+      alert('Mensagem enviada. Obrigado por entrar em contato!')
       e.target.reset()
   }
 return(
