@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import CardsProjects from '../cards/cardsProjects';
-import NavBar from '../navbar';
+import CardsProjects from '../../components/cards/cardsProjects';
+import NavBar from '../../components/navbar';
 import './styles.css'
 
 const initial = { x: -300, opacity: 0 } 

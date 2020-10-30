@@ -1,10 +1,11 @@
 import React from 'react';
-import Home from './components/home';
-import Sobre from './components/sobre';
+import Home from './pages/home';
+import Sobre from './pages/sobre';
+import CV from './pages/cv'
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Contato from './components/contato';
-import Projetos from './components/projetos';
+import Contato from './pages/contato';
+import Projetos from './pages/projetos';
 import { AnimatePresence } from 'framer-motion';
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
 
 
       <Route  path="/projetos" component={Projetos} />
+
+      <Route  path="/cv" component={CV} />
 
       <Route path="/sobre" component={Sobre} />
     </Switch>

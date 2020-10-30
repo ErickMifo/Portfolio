@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.css';
 import CardItem from './cardItem';
 import background from '../images/github.png'
+import background2 from '../images/cv-image.png'
 
 
 function CardsHome() {
@@ -14,6 +15,12 @@ function CardsHome() {
               text='GitHub'
               path='https://github.com/ErickMifo'
               alt='GitHub'
+            />
+               <CardItem
+              src={background2}
+              text='CV de teste'
+              path='https://portfolio.erickmifo.vercel.app/cv'
+              alt='CV'
             />
           </ul>
         </div>

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import NavBar from '../navbar'
+import NavBar from '../../components/navbar'
 import Formulario from './form/form';
 import './styles.css'
 
