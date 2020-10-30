@@ -46,6 +46,10 @@
   letter-spacing: 5px;
 }
 
+.buttonHome:hover {
+  transform: scale(1.1);
+}
+
 button.active.focus,
 button.active:focus,
 button.focus,

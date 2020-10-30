@@ -1,4 +1,9 @@
 .home {
+  position: absolute;
+  width: 100%;
+  height: 75%;
+  overflow-x: hidden;
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   padding-top: 100px;
@@ -14,7 +19,7 @@
 
 .Sub {
   margin: 3px;
-  animation: mymove 10s;
+  animation: mymove 7s;
   font-size: 1.25rem;
   padding-bottom: 100px;
 }
@@ -49,5 +54,10 @@
   .iptFront {
     display: flex;
     flex-direction: column;
+  }
+  .home {
+    position: static;
+    width: auto;
+    height: auto;
   }
 }

@@ -16,7 +16,8 @@ setClick(!click)
 
         <div className="navBar">
 
-            <Link to="/">
+            <Link 
+            to="/home">
             <button
             onClick={() =>{document.title = "Home | Erick Mifo"}}
             className="buttonHome">

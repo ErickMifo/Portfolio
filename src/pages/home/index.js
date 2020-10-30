@@ -14,12 +14,13 @@ function Home() {
 
   const handleChange = (event) => {
     setAdj(event.target.value);
-  };
 
+  };
 
   return (
 
-<>
+  <div>
+ 
     <NavBar />
     <motion.div 
     exit={{y: 300, opacity: 0 }}
@@ -39,21 +40,19 @@ function Home() {
 <div className="iptFront">
         <Select
          className="ipt"
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
           value={adj}
+          name = {adj === 'Algum adjetivo absurdo/cringe' ? "sim" : "não"}
           onChange={handleChange}
         >
-          <MenuItem value={'Interessado'}>Interessado</MenuItem>
-          <MenuItem value={'Curioso'}>Curioso</MenuItem>
-          <MenuItem value={'Algum adjetivo absurdo/cringe'}>Algum adjetivo absurdo/cringe</MenuItem>
+          <MenuItem value='Interessado' >Interessado</MenuItem>
+          <MenuItem value='Algum adjetivo absurdo/cringe'>Algum adjetivo absurdo/cringe</MenuItem>
         </Select>
         <p>por Front-end</p>
 </div>
       </div>
         <CardsHome />
  </motion.div>
-</>
+</div>
 
   );
 }

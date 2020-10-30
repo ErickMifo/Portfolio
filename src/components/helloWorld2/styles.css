@@ -1,0 +1,32 @@
+.hello-world1 {
+  padding-top: 15%;
+  left: 10%;
+  position: absolute;
+  width: 50%;
+  animation: helloanimation 3s;
+}
+
+.hello-world2 {
+  padding-top: 20%;
+  width: 50%;
+  right: 10%;
+  position: absolute;
+  animation: helloanimation 3s;
+}
+
+@media screen and (max-width: 768px) {
+  .hello-world1 {
+    position: static;
+    padding-top: 15%;
+    animation: helloanimation 3s;
+  }
+
+  .hello-world2 {
+    position: static;
+    padding-top: 20%;
+  }
+  .landingWrap {
+    height: 92vh;
+    width: 100%;
+  }
+}

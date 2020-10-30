@@ -1,0 +1,24 @@
+.hello-world {
+  padding-top: 15%;
+  animation: helloanimation 3s;
+}
+
+@keyframes helloanimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.saudacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.saudacoes h1 {
+  padding-bottom: 100px;
+}

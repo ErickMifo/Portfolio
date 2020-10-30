@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contato from './pages/contato';
 import Projetos from './pages/projetos';
 import { AnimatePresence } from 'framer-motion';
+import Landing from './pages/landing'
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
         render={({ location }) => (
     <AnimatePresence initial={false} exitBeforeEnter>
     <Switch location={location} key={location.pathname}>
-      <Route exact path="/" component={Home} />
+    <Route  exact path="/" component={Landing} />
+
+      <Route  path="/home" component={Home} />
 
 
       <Route  path="/contato" component={Contato} />
