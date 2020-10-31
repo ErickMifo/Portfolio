@@ -19,7 +19,7 @@ function HelloWorld2() {
            transition={{duration: 0.6}}
            className="hello-world2">
                    <div className="saudacoes">
-               <p> Clique na tela para continuar </p>
+               <p> Clique na tela para começar </p>
                    </div>
            </motion.div>
            </div>

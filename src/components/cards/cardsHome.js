@@ -18,7 +18,7 @@ function CardsHome() {
             />
                <CardItem
               src={background2}
-              text='CV de teste'
+              text='CV'
               path='https://portfolio.erickmifo.vercel.app/cv'
               alt='CV'
             />

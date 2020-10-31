@@ -12,13 +12,13 @@
   }
 }
 
-.saudacoes {
+.saudacoes1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.saudacoes h1 {
+.saudacoes1 h1 {
   padding-bottom: 100px;
 }

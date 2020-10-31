@@ -41,13 +41,17 @@ function Home() {
         <Select
          className="ipt"
           value={adj}
-          name = {adj === 'Algum adjetivo absurdo/cringe' ? "sim" : "não"}
           onChange={handleChange}
         >
-          <MenuItem value='Interessado' >Interessado</MenuItem>
-          <MenuItem value='Algum adjetivo absurdo/cringe'>Algum adjetivo absurdo/cringe</MenuItem>
+
+          <MenuItem value='Interessado por' >Interessado por</MenuItem>
+          <MenuItem value='auto-didata em(não escolha essa por favor)'>
+            auto-didata em(não escolha essa por favor)
+          </MenuItem>
+
         </Select>
-        <p>por Front-end</p>
+        
+        <p>desenvolvimento Front End</p>
 </div>
       </div>
         <CardsHome />

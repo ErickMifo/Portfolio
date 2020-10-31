@@ -10,7 +10,7 @@ function HelloWorld() {
         <motion.div
         drag
         className="hello-world">
-                <div className="saudacoes">
+                <div className="saudacoes1">
             <h1> Boas vindas ao meu portfólio. </h1>
             <p> Arraste e solte para continuar </p>
                 </div>

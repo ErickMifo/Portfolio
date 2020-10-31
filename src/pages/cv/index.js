@@ -1,6 +1,6 @@
 import React from 'react';
 import { Document, Page } from 'react-pdf';
-import Currilo from '../../components/images/CV.pdf';
+import Curriculo from '../../components/images/curriculo.pdf'
 import pdfjs from 'pdfjs-dist'
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry'
 import './styles.css'
@@ -15,8 +15,7 @@ function CV() {
   return (
     <div className="cv">
       <Document
-        file={Currilo}
-     
+        file={Curriculo}
       >
         <Page pageNumber={pageNumber} />
       </Document>
