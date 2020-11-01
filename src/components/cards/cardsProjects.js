@@ -18,7 +18,6 @@ function CardsProjects() {
               alt='Chat-app-image'
             />
              <CardItem
-              className="middleCard"
               src={agregador}
               text='Agregador de vídeos'
               path='https://agregador-videos.vercel.app/'

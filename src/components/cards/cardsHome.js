@@ -5,6 +5,7 @@ import background from '../images/github.png'
 import background2 from '../images/cv-image.png'
 
 
+
 function CardsHome() {
   return (
     <div className='cards'>
@@ -18,10 +19,11 @@ function CardsHome() {
             />
                <CardItem
               src={background2}
-              text='CV'
+              text='Currículo'
               path='https://portfolio.erickmifo.vercel.app/cv'
               alt='CV'
             />
+            
           </ul>
         </div>
       </div>
