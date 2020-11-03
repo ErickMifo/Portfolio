@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './pages/home';
 import Sobre from './pages/sobre';
+import Pagina404 from './pages/pagina404'
 import CV from './pages/cv'
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -10,6 +11,7 @@ import { AnimatePresence } from 'framer-motion';
 import Landing from './pages/landing'
 
 function App() {
+
   return (
     <div className="App">
     <Router> 
@@ -30,6 +32,9 @@ function App() {
       <Route  path="/cv" component={CV} />
 
       <Route path="/sobre" component={Sobre} />
+
+      <Route component={Pagina404} />
+      
     </Switch>
     </AnimatePresence>
         )}
