@@ -10,7 +10,7 @@ function HelloWorld2() {
         transition={{duration: 1}}
         className="hello-world1">
                 <div className="saudacoes">
-            <h1> Boas-vindas ao meu portfólio, </h1>
+            <h1> Sinta-se </h1>
                 </div>
         </motion.div>
 
@@ -19,9 +19,11 @@ function HelloWorld2() {
            transition={{duration: 1}}
            className="hello-world2">
                    <div className="saudacoes">
-               <h2> Permita-me lhe mostrar. </h2>
+               <h2> em casa. </h2>
                    </div>
            </motion.div>
+        
+      
            
            </div>
     )   

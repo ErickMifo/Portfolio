@@ -14,7 +14,7 @@ function Landing() {
     document.title = "Home | Erick Mifo"
     document.getElementById('Landing').click()
     console.log('Olá, vem sempre por aqui?')
-    }, 2500)
+    }, 2000)
 
     
 

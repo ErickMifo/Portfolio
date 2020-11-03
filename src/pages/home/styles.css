@@ -11,6 +11,21 @@
   color: black;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.span1 {
+  display: none;
+}
+
 .typedTitle {
   padding: 30px;
   font-size: 2rem;
@@ -24,13 +39,6 @@
   padding-bottom: 100px;
 }
 
-.iptFront {
-  display: flex;
-  flex-direction: row;
-}
-.ipt {
-  margin-right: 10px;
-}
 @keyframes mymovetitle {
   from {
     padding-bottom: 100px;

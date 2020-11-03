@@ -1,21 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 import Typed from "react-typed";
 import NavBar from '../../components/navbar'
-import CardsHome from "../../components/cards/cardsHome";
+import GitHubIcon from '@material-ui/icons/GitHub';
+import FormatAlignLeftIcon from '@material-ui/icons/FormatAlignLeft';
+import { Fade, makeStyles } from '@material-ui/core';
 import { motion } from "framer-motion";
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
+import Tooltip from '@material-ui/core/Tooltip';
 
+const useStyles = makeStyles({
+  root: {
+      fontSize:"2rem",
+      padding:"10px",
+      '&:hover':{
+        color:"#00a0c6",
+     
+      }
+  },
+  
+
+})
 
 function Home() {
-
-  const [adj, setAdj] = useState('');
-
-  const handleChange = (event) => {
-    setAdj(event.target.value);
-
-  };
+  const classes = useStyles()
 
   return (
 
@@ -36,25 +43,34 @@ function Home() {
         cursorChar=""
       />
       <div  className="Sub">
-        <p>Sou estudante de Administração pela UFSC e</p> 
-<div className="iptFront">
-        <Select
-         className="ipt"
-          value={adj}
-          onChange={handleChange}
-        >
-
-          <MenuItem value='Interessado por' >Interessado por</MenuItem>
-          <MenuItem value='auto-didata em(não escolha essa por favor)'>
-            auto-didata em(não escolha essa por favor)
-          </MenuItem>
-
-        </Select>
-        
-        <p>desenvolvimento Front End</p>
-</div>
+        <p>Sou estudante de Administração pela UFSC e interessado por desenvolvimento Front End</p> 
+      
       </div>
-        <CardsHome />
+
+<div>
+      <Tooltip 
+      title="GitHub" 
+      arrow 
+      TransitionComponent={Fade} 
+      TransitionProps={{ timeout: 600 }} >
+      <a rel="noopener noreferrer" href="https://github.com/ErickMifo" target="_blank">
+        <GitHubIcon className={classes.root} />
+      </a>
+      </Tooltip> 
+ 
+      <Tooltip 
+      title="CV" 
+      arrow 
+      TransitionComponent={Fade} 
+      TransitionProps={{ timeout: 600 }} 
+      >
+      <a rel="noopener noreferrer" href="https://portfolio.erickmifo.vercel.app/cv" target="_blank">
+        <FormatAlignLeftIcon className={classes.root} />
+      </a>
+      </Tooltip> 
+
+  </div>
+
  </motion.div>
 </div>
 
