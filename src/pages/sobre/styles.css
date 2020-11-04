@@ -18,3 +18,9 @@
   top: 5%;
   left: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .sobreText {
+    width: 80%;
+  }
+}

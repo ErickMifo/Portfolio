@@ -64,6 +64,7 @@ a:hover {
     flex-direction: column;
   }
   .home {
+    margin: 3px;
     position: static;
     width: auto;
     height: auto;
