@@ -23,6 +23,8 @@ const useStyles = makeStyles({
 
 function Home() {
   const classes = useStyles()
+  const Curriculo = 
+  "https://docs.google.com/document/d/1ZlRj1xWq4XTpfodbYPDY4BCBvD0RYTZh9I2G510aGvg/edit#heading=h.d5q0p6aqmaj0"
 
   return (
 
@@ -64,7 +66,7 @@ function Home() {
       TransitionComponent={Fade} 
       TransitionProps={{ timeout: 600 }} 
       >
-      <a rel="noopener noreferrer" href="https://portfolio.erickmifo.vercel.app/cv" target="_blank">
+      <a rel="noopener noreferrer" href={Curriculo} target="_blank">
         <FormatAlignLeftIcon className={classes.root} />
       </a>
       </Tooltip> 
