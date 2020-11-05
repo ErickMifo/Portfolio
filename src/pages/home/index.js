@@ -31,7 +31,7 @@ function Home() {
   <div id="Landing">
  
     <NavBar />
-    <motion.div 
+    <motion.div
     exit={{y: 300, opacity: 0 }}
     transition={{duration: 0.6}}
     className="home">

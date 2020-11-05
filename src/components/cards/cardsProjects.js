@@ -18,6 +18,7 @@ function CardsProjects() {
               path='https://chat-app.erickmifo.vercel.app/'
               alt='Chat-app-image'
             />
+            
              <CardItem
               src={agregador}
               text='Agregador de vídeos'
@@ -26,9 +27,9 @@ function CardsProjects() {
             />
              <CardItem
               src={chat}
-              text='Outro'
-              path='https://github.com/ErickMifo'
-              alt='Outro'
+              text='Site pra ecommerce'
+              path='https://5fa46740b923111fa301d9d7--eager-lumiere-87e7c6.netlify.app/'
+              alt='ecommerce'
             />
           </ul>
         </div>
