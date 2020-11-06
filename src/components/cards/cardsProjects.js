@@ -3,6 +3,7 @@ import './styles.css';
 import CardItem from './cardItem';
 import chat from '../images/chat-app.png';
 import agregador from '../images/agregador.png';
+import adm from '../images/ADM.png'
 
 
 
@@ -25,9 +26,9 @@ function CardsProjects() {
               alt='Agregador de vídeos-image'
             />
              <CardItem
-              src={chat}
+              src={adm}
               text='Ecommerce feito em gatsby para disciplina Administração de projetos.'
-              path='https://5fa46740b923111fa301d9d7--eager-lumiere-87e7c6.netlify.app/'
+              path='https://eager-lumiere-87e7c6.netlify.app/'
               alt='ecommerce'
             />
           </ul>
