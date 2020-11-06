@@ -7,7 +7,7 @@ import './styles.css'
 function Contato() {
    
     return(
-        <div>
+        <div id="Landing">
             <NavBar />
 
        

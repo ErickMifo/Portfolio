@@ -37,7 +37,7 @@ function Sobre() {
 
 
     return (
-<>
+<div id="Landing">
       
 
             <NavBar />
@@ -53,7 +53,7 @@ function Sobre() {
               rotate: 90,
               translateX: 5,
               translateY: 5,
-              scaleX: -1 // Reverse direction of line animation
+              scaleX: -1
             }}
           />
           <motion.path
@@ -91,7 +91,7 @@ function Sobre() {
             </p>
             </motion.div>
        
-</>
+</div>
     )
 }
 

@@ -11,7 +11,7 @@ const projetos = "Aqui estão alguns dos meus projetos."
 const interesse = "São do meu interesse: JavaScript, CSS, HTML, Reactjs e Nodejs"
 function Projetos() {
     return (
-        <div>
+        <div id="Landing">
             <NavBar />
             <motion.div
             exit={{ x: 300, opacity: 0 }}
@@ -27,7 +27,7 @@ function Projetos() {
             <motion.p
                   initial={initial}
                   animate={animate}
-                  transition={{duration: 6}}
+                  transition={{duration: 3}}
             className="interests">{interesse}</motion.p>
         </div>
 
