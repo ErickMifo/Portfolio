@@ -3,6 +3,7 @@ import React from 'react';
 import CardsProjects from '../../components/cards/cardsProjects';
 import NavBar from '../../components/navbar';
 import './styles.css'
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 
 const initial = { x: -300, opacity: 0 } 
 const animate = { x: 0, opacity: 1 } 
@@ -30,7 +31,8 @@ function Projetos() {
                   transition={{duration: 3}}
             className="interests">{interesse}</motion.p>
         </div>
-
+        
+            <ArrowDropDownIcon />
             <CardsProjects />
             </motion.div>
         </div>
