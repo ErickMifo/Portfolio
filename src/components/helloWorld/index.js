@@ -9,19 +9,15 @@ function HelloWorld2() {
         exit={{ x: -300 }}
         transition={{duration: 1}}
         className="hello-world1">
-                <div className="saudacoes">
-            <h1> Sinta-se </h1>
-                </div>
         </motion.div>
 
-           <motion.div
-           exit={{ x: 300 }}
-           transition={{duration: 1}}
-           className="hello-world2">
-                   <div className="saudacoes">
-               <h2> em casa. </h2>
-                   </div>
-           </motion.div>
+
+
+        <motion.div
+        exit={{ x: 300 }}
+        transition={{duration: 1}}
+        className="hello-world2">
+        </motion.div>
         
       
            

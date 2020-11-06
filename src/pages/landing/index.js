@@ -10,11 +10,11 @@ import './styles.css';
 function Landing() {
 
 
-    setTimeout(function() {
+  setTimeout(function() {
     document.title = "Home | Erick Mifo"
     document.getElementById('Landing').click()
     console.log('Olá, vem sempre por aqui?')
-    }, 1200)
+    }, 400) 
 
     
 

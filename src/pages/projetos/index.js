@@ -33,8 +33,10 @@ function Projetos() {
         </div>
         
             <ArrowDropDownIcon />
-            <CardsProjects />
+            
             </motion.div>
+
+            <CardsProjects />
         </div>
     )
 }

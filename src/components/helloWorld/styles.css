@@ -17,44 +17,11 @@
   top: 0;
 }
 
-.saudacoes h1 {
-  padding-left: 30%;
-  padding-top: 40%;
-  animation: texto1 1s;
-}
-
-@keyframes texto1 {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.saudacoes h2 {
-  padding-left: 30%;
-  padding-top: 50%;
-  animation: texto2 4s;
-}
-
-@keyframes texto2 {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .hello-world1 {
     position: static;
     padding-top: 15%;
     width: 100%;
-  }
-  .saudacoes h1 {
-    padding-left: 10%;
   }
 
   .landingWrap {

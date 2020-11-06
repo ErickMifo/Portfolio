@@ -12,6 +12,7 @@
   cursor: pointer;
   font-size: 1.25rem;
   padding: 8px 24px;
+  margin-bottom: 10px;
   transition-duration: 0.4s;
 }
 
