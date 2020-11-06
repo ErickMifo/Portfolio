@@ -79,7 +79,7 @@ button:focus {
     right: 0px;
     height: 92vh;
     top: 12vh;
-    background-color: #f0ffff;
+    background-color: #ffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,7 +103,7 @@ button:focus {
   right: 0px;
   height: 100%;
   top: 12vh;
-  background-color: #f0ffff;
+  background-color: #ffff;
   display: flex;
   flex-direction: column;
   align-items: center;
