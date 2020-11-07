@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import React from 'react';
+import React, { useRef } from 'react';
 import CardsProjects from '../../components/cards/cardsProjects';
 import NavBar from '../../components/navbar';
 import './styles.css'
@@ -8,9 +8,22 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 const initial = { x: -300, opacity: 0 } 
 const animate = { x: 0, opacity: 1 } 
 
+
 const projetos = "Aqui estão alguns dos meus projetos."
 const interesse = "São do meu interesse: JavaScript, CSS, HTML, Reactjs e Nodejs"
 function Projetos() {
+
+    
+
+    const cardRef = useRef()
+
+    const handleClick = () => {
+        window.scrollTo({
+            behavior: "smooth",
+            top: cardRef.current.offsetTop
+        })
+    }
+
     return (
         <div id="Landing">
             <NavBar />
@@ -31,12 +44,20 @@ function Projetos() {
                   transition={{duration: 3}}
             className="interests">{interesse}</motion.p>
         </div>
-        
-            <ArrowDropDownIcon />
-            
-            </motion.div>
 
-            <CardsProjects />
+
+            <p 
+            className="arrowDrop"
+            onClick={handleClick}>Ver projetos</p>
+            <ArrowDropDownIcon 
+            className="arrowDrop"
+            onClick={handleClick}/>
+
+        
+            </motion.div>
+            <div ref={cardRef}>
+            <CardsProjects/>
+            </div>
         </div>
     )
 }

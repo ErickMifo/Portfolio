@@ -12,6 +12,14 @@
   padding-bottom: 100px;
 }
 
+.arrowDrop {
+  cursor: pointer;
+}
+
+.arrowDrop:hover {
+  color: #deb887;
+}
+
 .interests {
   margin: 3px;
   font-size: 1.25rem;

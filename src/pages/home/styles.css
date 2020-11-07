@@ -30,6 +30,8 @@ a:hover {
 }
 
 .Sub {
+  text-align: center;
+  width: 70%;
   margin: 3px;
   animation: mymove 7s;
   font-size: 1.25rem;

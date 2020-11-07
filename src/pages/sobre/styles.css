@@ -1,15 +1,26 @@
 .sobre {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 25px;
+  border: #deb887 solid;
+}
+
+.nome {
+  position: absolute;
+  left: 40%;
+  top: 20%;
 }
 
 .sobreText {
   font-size: 1.25rem;
-  font-family: "Courier Prime", monospace;
   line-height: 1.8;
-  width: 50%;
+  width: 70%;
   padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 .progress-icon {

@@ -12,12 +12,11 @@
   cursor: pointer;
   font-size: 1.25rem;
   padding: 8px 24px;
-  margin-bottom: 10px;
   transition-duration: 0.4s;
 }
 
 .buttonContato:hover {
-  background-color: #f0ffff;
+  background-color: #ffff;
   color: black;
 }
 
@@ -45,10 +44,6 @@
   font-size: 2rem;
   margin: 3px;
   letter-spacing: 5px;
-}
-
-.buttonHome:hover {
-  transform: scale(1.1);
 }
 
 button.active.focus,

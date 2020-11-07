@@ -9,6 +9,7 @@ import {
   useSpring,
   useTransform
 } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 
 
@@ -20,7 +21,7 @@ const Quinto = "Eu postei o link do GitHub do projeto e expliquei como funcionav
 const Sexto = "Mas era meu primeiro projeto e o codigo era muito bagunçado e difícil de ler, tendo poucos resultados. "
 const Setimo = "Depois dessa experiência continuei a aprender programação, fiz alguns cursos onlines"
 const Oitavo = "(uma imersão Alura e outros cursos no Youtube) e, atualmente, estou fazendo projetos com foco maior para o Front-End."
-const Nono = " Se precisar de algo ou quiser conversar, fique à vontade para usar a aba de contato."
+const Nono = " Se precisar de algo ou quiser conversar, fique à vontade para usar a aba de"
 
 
 
@@ -66,6 +67,12 @@ function Sobre() {
             animate={{ pathLength: isComplete ? 1 : 0 }}
           />
         </svg>
+        <motion.h1 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{duration: 0.4}}
+        className="nome"> Erick Mifo </motion.h1>
             <motion.div
             className="sobre"
             initial={{y: 300, opacity: 0}}
@@ -73,6 +80,7 @@ function Sobre() {
             exit={{ y: -300, opacity: 0 }}
             transition={{duration: 1}}>
 
+           
             <p 
             className="sobreText">
                 {Primeiro}
@@ -88,6 +96,7 @@ function Sobre() {
                 {Oitavo} 
                 <br /> 
                 {Nono}
+                <Link to="/contato"> contato. </Link>
             </p>
             </motion.div>
        

@@ -21,7 +21,7 @@ setClick(!click)
             <button
             onClick={() =>{document.title = "Home | Erick Mifo"}}
             className="buttonHome">
-                 Erick Mifo 
+                 Portfólio
             </button>
             </Link>
 
