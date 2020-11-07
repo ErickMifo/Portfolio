@@ -33,4 +33,12 @@
   .sobreText {
     width: 80%;
   }
+  .nome {
+    position: relative;
+    left: 5%;
+    padding: 15%;
+  }
+  .progress-icon {
+    display: none;
+  }
 }
