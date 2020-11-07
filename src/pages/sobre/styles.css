@@ -28,6 +28,9 @@
   top: 12%;
   left: 10%;
 }
+.linkContato {
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 768px) {
   .sobreText {

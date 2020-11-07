@@ -96,7 +96,7 @@ function Sobre() {
                 {Oitavo} 
                 <br /> 
                 {Nono}
-                <Link to="/contato"> contato. </Link>
+                <Link className="linkContato" to="/contato"> contato. </Link>
             </p>
             </motion.div>
        

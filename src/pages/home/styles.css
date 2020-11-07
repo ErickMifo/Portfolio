@@ -26,14 +26,14 @@ a:hover {
 .typedTitle {
   padding: 30px;
   font-size: 2rem;
-  animation: mymovetitle 6s;
+  animation: mymovetitle 2s;
 }
 
 .Sub {
   text-align: center;
-  width: 70%;
+  width: 60%;
   margin: 3px;
-  animation: mymove 7s;
+  animation: mymove 4s;
   font-size: 1.25rem;
   padding-bottom: 100px;
 }

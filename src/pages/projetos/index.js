@@ -41,7 +41,7 @@ function Projetos() {
             <motion.p
                   initial={initial}
                   animate={animate}
-                  transition={{duration: 3}}
+                  transition={{duration: 2}}
             className="interests">{interesse}</motion.p>
         </div>
 
