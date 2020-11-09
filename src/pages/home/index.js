@@ -24,7 +24,7 @@ const useStyles = makeStyles({
 function Home() {
   const classes = useStyles()
   const Curriculo = 
-  "https://docs.google.com/document/d/1ZlRj1xWq4XTpfodbYPDY4BCBvD0RYTZh9I2G510aGvg/edit#heading=h.d5q0p6aqmaj0"
+  "https://docs.google.com/document/d/e/2PACX-1vSr_O3HFkGZv3Lj3XYZ4tFqPnH7VcqBUfbOuvarn8yBYnpCX-oi5bQ-xh7WqOUPde01fd_4MemUwPVo/pub"
 
   return (
 
@@ -45,7 +45,7 @@ function Home() {
         cursorChar=""
       />
       <div  className="Sub">
-        <p>Sou estudante de Administração pela UFSC e interessado por desenvolvimento Front End</p> 
+        <p>Sou estudante de Administração pela UFSC e interessado por desenvolvimento web</p> 
       
       </div>
 
