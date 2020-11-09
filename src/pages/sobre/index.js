@@ -21,7 +21,8 @@ const Quinto = "Eu postei o link do GitHub do projeto e expliquei como funcionav
 const Sexto = "Mas era meu primeiro projeto e o codigo era muito bagunçado e difícil de ler, tendo poucos resultados. "
 const Setimo = "Depois dessa experiência continuei a aprender programação, fiz alguns cursos onlines"
 const Oitavo = "(uma imersão Alura e outros cursos no Youtube) e, atualmente, estou fazendo projetos com foco maior para o Front-End."
-const Nono = " Se precisar de algo ou quiser conversar, fique à vontade para usar a aba de"
+const Nono = " Se precisar de algo ou quiser conversar, fique à vontade para usar a aba de "
+const Dec = "."
 
 
 
@@ -96,7 +97,8 @@ function Sobre() {
                 {Oitavo} 
                 <br /> 
                 {Nono}
-                <Link className="linkContato" to="/contato"> contato. </Link>
+                <Link className="linkContato" to="/contato">contato</Link>
+                {Dec}
             </p>
             </motion.div>
        
