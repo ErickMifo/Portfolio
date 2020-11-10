@@ -13,16 +13,16 @@ import { Link } from 'react-router-dom';
 
 
 
-const Primeiro = "Sou de Sâo Paulo capital e, em 2017, me mudei para Florianópolis pois comecei a cursar administração pela UFSC. "
-const Segundo = "Ao decorrer da graduação trabalhei em alguns lugares, mas nada relacionado à programação. "
-const Terceiro = "Apenas durante a pandemia do Covid, quando tive que voltar para SP, usei meu tempo livre para começar a aprender JavaScript. "
-const Quarto = "Meu primeiro projeto foi feito com NodeJS e MongoDB, era um WebScrapper que resolvia um problema de um jogo de celular. "
-const Quinto = "Eu postei o link do GitHub do projeto e expliquei como funcionava em uma SubReddit e foi o post com mais Up Vote do dia (pequenos orgulhos, certo?!)."
-const Sexto = "Mas era meu primeiro projeto e o codigo era muito bagunçado e difícil de ler, tendo poucos resultados. "
+const Primeiro = "Sou de Sâo Paulo capital e, em 2017, me mudei para Florianópolis pois comecei a cursar administração pela UFSC e, "
+const Segundo = "Ao decorrer da graduação, trabalhei em alguns lugares, mas nada relacionado à programação. "
+const Terceiro = "Apenas durante a pandemia do Covid, quando tive que voltar para SP, usei meu tempo livre para começar a aprender JavaScript, sendo "
+const Quarto = "meu primeiro projeto feito em NodeJS e MongoDB que usava um WebScrapper para resolver um problema de um jogo de celular. "
+const Quinto = "Eu postei o link do GitHub do projeto e expliquei como funcionava em uma SubReddit e foi o post com mais Up Vote do dia, "
+const Sexto = "mas era meu primeiro projeto, não tinha feito o deploy e o codigo era muito bagunçado e difícil de ler, tendo poucos resultados. "
 const Setimo = "Depois dessa experiência continuei a aprender programação, fiz alguns cursos onlines"
-const Oitavo = "(uma imersão Alura e outros cursos no Youtube) e, atualmente, estou fazendo projetos com foco maior para o Front-End."
-const Nono = " Se precisar de algo ou quiser conversar, fique à vontade para usar a aba de "
-const Dec = "."
+const Oitavo = " ( uma imersão Alura e outros cursos no Youtube ) e, atualmente, estou fazendo projetos com foco maior para o Front-End."
+const Nono = "Se precisar de algo ou quiser conversar, fique à vontade para usar a aba de "
+
 
 
 
@@ -87,18 +87,16 @@ function Sobre() {
                 {Primeiro}
                 {Segundo}
                 {Terceiro} 
-                <br /> 
                 {Quarto} 
                 {Quinto} 
-                <br /> 
                 {Sexto} 
+                <br />
                 {Setimo} 
-                <br /> 
                 {Oitavo} 
-                <br /> 
+                <br />
                 {Nono}
-                <Link className="linkContato" to="/contato">contato</Link>
-                {Dec}
+                <Link className="linkContato" to="/contato">contato</Link>.
+               
             </p>
             </motion.div>
        

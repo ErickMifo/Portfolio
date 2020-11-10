@@ -10,7 +10,7 @@ const animate = { x: 0, opacity: 1 }
 
 
 const projetos = "Aqui estão alguns dos meus projetos."
-const interesse = "São do meu interesse: JavaScript, CSS, HTML, Reactjs e Nodejs"
+const interesse = "São do meu interesse: JavaScript, CSS, HTML e Reactjs"
 function Projetos() {
 
     
