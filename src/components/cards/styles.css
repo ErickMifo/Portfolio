@@ -45,9 +45,16 @@
 
 @media only screen and (max-width: 768px) {
   .cards__item {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  .cards__item__img {
+    width: 75%;
+  }
+  .cards__item__link {
+    flex-direction: column;
   }
   .cards__item__info {
-    display: none;
+    padding: 30px 120px 10px 10px;
   }
 }
