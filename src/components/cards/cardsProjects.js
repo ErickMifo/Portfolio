@@ -12,9 +12,15 @@ function CardsProjects() {
   return (
     <div className='cards'>
           <ul className='cards__items'>
+          <CardItem
+              src={blog}
+              text='Blog feito com Gatsby. Posts transformados de .md para HTML'
+              path='https://stoic-montalcini-357809.netlify.app/'
+              alt='Blog'
+            />
             <CardItem
               src={chat}
-              text='Chat-app. projeto feito em React e Node usando socket.io;'
+              text='Chat-app.Projeto Feito em ReactJS e NodeJS usando socket.io;'
               path='https://chat-app.erickmifo.vercel.app/'
               alt='Chat-app-image'
             />
