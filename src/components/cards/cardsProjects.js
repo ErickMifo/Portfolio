@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 import CardItem from './cardItem';
-import chat from '../images/chat-app.png';
+import joke from '../images/cn-jokes.png';
 import agregador from '../images/agregador.png';
 import blog from '../images/blog.png'
 
@@ -19,10 +19,10 @@ function CardsProjects() {
               alt='Blog'
             />
             <CardItem
-              src={chat}
-              text='Chat-app.Projeto Feito em ReactJS e NodeJS usando socket.io;'
-              path='https://chat-app.erickmifo.vercel.app/'
-              alt='Chat-app-image'
+              src={joke}
+              text='CN-jokes. Projeto feito em Reactjs consumindo dados de uma API;'
+              path='https://truckpag-teste.erickmifo.vercel.app/'
+              alt='CN-jokes image'
             />
             
              <CardItem
